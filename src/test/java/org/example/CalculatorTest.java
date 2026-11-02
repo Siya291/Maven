@@ -10,4 +10,10 @@ public class CalculatorTest extends TestCase {
         Calculator calculator = new Calculator();
         assertEquals(5, calculator.addNums(2, 3));
     }
+
+    @Test
+    public void testMultiplyNums() {
+        Calculator calculator = new Calculator();
+        assertEquals(25, calculator.multiplyNums(5, 5));
+    }
 }
